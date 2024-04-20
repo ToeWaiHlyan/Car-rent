@@ -457,28 +457,3 @@ leftArrow.addEventListener('click',()=>
     <span>Jack</span>
   `
 });
-
-
-const sr = ScrollReveal(
-  {
-    distance : '60px',
-    duration : 2500,
-    delay : 400,
-    reset : false,
-  }
-)
-
-sr.reveal('.first-section', { delay: 200 , origin : 'top' });
-sr.reveal('.search-car-container',{delay : 200 , origin : 'left'});
-sr.reveal('.plan-container' , {delay : 200 , origin : 'top'});
-sr.reveal('.car-rent-container' , {delay : 200 , origin : 'bottom'});
-sr.reveal('.car-brand-img-container' , {delay : 200 , origin : 'right'});
-sr.reveal('.car-models-header' , {delay : 200 , origin : 'top'});
-sr.reveal('.rental-grid-container .first-grid' , {delay : 200 , origin : 'left'});
-sr.reveal('.rental-grid-container .second-grid' , {delay : 200 , origin : 'top'});
-sr.reveal('.rental-grid-container .third-grid', { delay: 200 , origin : 'right' });
-sr.reveal('.car-rental', { delay: 200 , origin : 'bottom' });
-sr.reveal('.rents-container', { delay: 200 , origin : 'left' });
-sr.reveal('.rents-deals-container', { delay: 200 , origin : 'left' });
-sr.reveal('.car-review-first-grid', { delay: 200 , origin : 'left' });
-sr.reveal('.car-review-second-grid', { delay: 200 , origin : 'right' });
